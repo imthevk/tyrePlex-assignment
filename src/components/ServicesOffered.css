@@ -34,6 +34,14 @@
   padding: 10px 50px;
   border: none;
 }
+.bookBtn:hover {
+  background-color: #fff;
+  color: var(--red-color);
+  border: 1px solid;
+  border-color: var(--red-color);
+  transform: scale(1.05);
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
 @media (max-width: 768px) {
   .serviceOffered .col-lg-6 {
     margin-bottom: 10px;
