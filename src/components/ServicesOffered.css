@@ -1,0 +1,64 @@
+.serviceOffered {
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.serviceOffered h5 {
+  margin-bottom: 20px;
+}
+
+.serviceOffered .serviceItem {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  height: 17em;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serviceItemChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: "20px";
+}
+.py-2 {
+  padding: 14px 0;
+}
+.bookBtn {
+  background-color: var(--red-color);
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+}
+@media (max-width: 768px) {
+  .serviceOffered .col-lg-6 {
+    margin-bottom: 10px;
+  }
+  .bookBtn {
+    padding: 5px 25px;
+  }
+
+  .serviceOffered .serviceItem {
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    height: 7em;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .serviceItemChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .py-2 {
+    padding: 0 12px;
+  }
+}

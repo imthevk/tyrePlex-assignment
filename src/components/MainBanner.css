@@ -1,0 +1,80 @@
+.carousel-inner,
+.carousel img {
+  border-radius: 8px;
+}
+.dealerDetail {
+  background-color: var(--white-bg);
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.dealerDetail h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+.userRating {
+  background: var(--red-color);
+  padding: 0 5px;
+  border-radius: 5px;
+  color: var(--white-bg);
+  font-size: 12px;
+}
+.ratingStars svg {
+  color: var(--text-yellow);
+}
+.rateBtn {
+  color: var(--red-color);
+}
+.location svg,
+.timings svg,
+.paymentModes svg {
+  color: var(--gray-color);
+}
+.paymentModes span {
+  font-size: 12px;
+}
+.getDirection {
+  background-color: #fff;
+  color: var(--red-color);
+  border: var(--red-color) 1px solid;
+  border-radius: 4px;
+  padding: 5px 25px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  max-width: 200px;
+}
+.getDirection:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: var(--red-color);
+  color: #fff;
+}
+.location .address,
+.timings .time {
+  font-size: 14px;
+}
+.paymentModes .payType {
+  display: flex;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .dealerDetail {
+    margin-top: 10px;
+  }
+  .filters input,
+  .filters select {
+    min-width: 120px !important;
+  }
+}
+@media (max-width: 768px) {
+  .paymentModes .payType {
+    flex-direction: column;
+  }
+  .getDirection {
+    max-width: 100%;
+  }
+  .dealerDetail {
+    margin-top: 10px;
+  }
+}

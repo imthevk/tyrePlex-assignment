@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300..800&display=swap");
+:root {
+  --text-black: #000;
+  --white-bg: #fff;
+  --verify-color: #27b082;
+  --red-color: #ef4a50;
+  --text-yellow: #fac808;
+  --gray-color: #adadad;
+}
+* {
+  font-family: "Moderustic", sans-serif;
+}
+body {
+  font-weight: normal !important;
+}
+.react-multiple-carousel__arrow {
+  z-index: 2;
+}

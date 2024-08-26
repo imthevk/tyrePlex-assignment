@@ -1,0 +1,43 @@
+.reviewsRatings{
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.reviewsRatings .userImg img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.reviewsRatings h5{
+    margin-bottom: 20px;
+}
+.reviewsRatings .ratingItem{
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 10px 1px 10px;
+    min-height: 160px;
+    background: #fff;
+}
+.react-multiple-carousel__arrow--right {
+    right: 0 !important;
+}
+.react-multiple-carousel__arrow--left{
+    left: 0 !important;
+}
+.userContent{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.ratingItem h6{
+    margin-bottom: 0;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)  {
+.userContent {
+    font-size: 12px;
+}
+}
+@media (max-width: 768px) {
+    .userContent {
+        font-size: 12px;
+    }
+}
